@@ -1,3 +1,18 @@
+/*
+You can use this to get a date in spanish format.
+It has been compiled and it is working, any ideas welcome.
+
+To use for example first import it:
+    import { DateCon} from './convertTime'
+Then create an object with the time you like to convert in miliseconds:
+    var spanish = new DateCon.dateSpanish(1451775600000);
+    
+Use getDateFormatNumeric() to get the date in format "dd/mm/yyyy"
+Use getDateMonthString() to get the date like "Domingo 3 de Enero de 2016"
+
+That's it for now 
+
+*/
 namespace DateCon{
     export class dateSpanish{
         time: number;
